@@ -5,7 +5,7 @@ data = pd.read_csv("data/Automobile_data.csv")
 
 st.title("Here's a simple app")
 
-cols = st.columns([2,2,1,1])
+cols = st.columns([2, 2, 1, 1])
 with cols[0]:
     render_data = st.toggle("Render the data", False)
 with cols[1]:
